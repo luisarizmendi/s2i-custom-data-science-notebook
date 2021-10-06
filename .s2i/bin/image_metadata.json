@@ -1,0 +1,27 @@
+{
+    "labels": [{
+            "summary": "S2I custom data science jupyter notebook."
+        },
+        {
+            "name": "luisarizmendi/s2i-custom-data-science-notebook:latest"
+        },
+        {
+            "io.k8s.display-name": "Jupyter Notebook"
+        },
+        {
+            "io.k8s.description": "S2I custom data science jupyter notebook."
+        },
+        {
+            "io.k8s.description": "S2I custom data science jupyter notebook."
+        },
+        {
+            "io.openshift.s2i.scripts-url": "image:///opt/app-root/builder"
+        },
+        {
+            "io.s2i.scripts-url": "image:///opt/app-root/builder"
+        },
+        {
+            "io.openshift.tags": "aicoe,builder,custom,notebook,jupyter,python"
+        }
+    ]
+}

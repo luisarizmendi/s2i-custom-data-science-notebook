@@ -1,0 +1,47 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi-org-simple"
+
+[packages]
+boto3 = "==1.17.11"
+beautifulsoup4 = "*"
+bokeh = "*"
+cloudpickle = "*"
+cython = "*"
+dask = "*"
+dill = "*"
+distributed = "*"
+elyra-python-editor-extension = "*"
+h5py = "*"
+ipywidgets = ">=7.5.0"
+jupyter-bokeh = "*"
+jupyterlab-git = "==0.30.0"
+jupyterlab-s3-browser = "*"
+kafka-python = "*"
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+plotly = "*"
+pre-commit = "*"
+pyarrow = "*"
+s3fs = "==0.3.4"
+scipy = "*"
+scikit-image = "*"
+scikit-learn = "*"
+seaborn = "*"
+sqlalchemy = "*"
+statsmodels = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
