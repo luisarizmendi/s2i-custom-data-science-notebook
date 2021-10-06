@@ -12,14 +12,14 @@ spec:
   source:
     git:
       ref: main
-      uri: 'https://github.com/luisarizmendi/s2i-scipy-notebook'
+      uri: 'https://github.com/luisarizmendi/s2i-custom-data-science-notebook'
     type: Git
   strategy:
     type: Source
     sourceStrategy:
       from:
-        kind: DockerImage
-        name: 'quay.io/luisarizmendi/s2i-minimal-notebook:latest'
+        kind: ImageStreamTag
+        name: s2i-generic-data-science-notebook:v0.0.4
       env: []
   triggers:
     - type: ImageChange
